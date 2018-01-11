@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Options" description="">
+    <siteMapNode title="Processes" description="">
+      <siteMapNode url="~/Administrator/Processes_Reviewers_Enable_Disable.aspx" title="Enable/Disable Reviewers" description="" />
+      <siteMapNode url="~/Administrator/Processes_Authors_Enable_Disable.aspx" title="Enable/Disable Authors" description="" />
+    </siteMapNode>
+    <siteMapNode title="Analyses" description="">
+    </siteMapNode>
+    <siteMapNode title="Reports" description="">
+    </siteMapNode>
+    <siteMapNode title="Maintenance" description="">
+      <siteMapNode url="~/Administrator/Authors_Maintain.aspx" title="Maintain Authors" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CPMS</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:LightGray">
+    <form id="form1" runat="server">
+
+        <asp:Table runat="server">
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Table runat="server">
+                        <asp:TableRow>
+                            <asp:TableCell HorizontalAlign="Center">
+                                <asp:Image runat="server" ImageUrl="~/Graphics/CPMS.png" /><br />
+                                <asp:LinkButton runat="server" ID="btnLogout" CausesValidation="false" OnClick="btnLogout_Click" Text="[Logout]" />
+                            </asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                </asp:TableCell>
+                <asp:TableCell VerticalAlign="Top">
+                    <asp:Table runat="server">
+                        <asp:TableRow>
+                            <asp:TableCell>
+                                 <asp:Label runat="server" SkinID="skiHeaderTitle" Text="Conference Paper Management System: CCSCMW CPMS3" />
+                            </asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow runat="server">
+                            <asp:TableCell runat="server">
+                                <asp:Label runat="server" ID="lblUser" Font-Bold="true" Font-Size="12" />
+                            </asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow runat="server">
+                            <asp:TableCell>
+                                <asp:Label runat="server" ID="lblPageTitle" SkinID="skiHeaderData" />
+                            </asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow runat="server">
+                            <asp:TableCell>
+                                <asp:Label runat="server" ID="lblMessage" SkinID="skiHeaderData" />
+                            </asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <asp:Table runat="server">
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label runat="server" Text="Server " SkinID="skiFooterLabel" />
+                    <asp:Label runat="server" ID="lblServerName" SkinID="skiHeaderData" />
+                    <asp:Label runat="server" Text=" Version " SkinID="skiFooterLabel" />
+                    <asp:Label runat="server" ID="lblVersion" SkinID="skiHeaderData" />
+                    <asp:Label runat="server" Text=" Date " SkinID="skiFooterLabel" />
+                    <asp:Label runat="server" ID="lblDate" SkinID="skiHeaderData" />
+                    <asp:Label runat="server" Text=" Contact " SkinID="skiFooterLabel" />
+                    <asp:Label runat="server" ID="lblContact" SkinID="skiHeaderData" />
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+
+    </form>
+</body>
+</html>

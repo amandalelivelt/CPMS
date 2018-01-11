@@ -1,0 +1,113 @@
+﻿<%--<asp:Table runat="server"
+BorderColor="Orange"
+BorderWidth="1px"
+/>
+
+<asp:TableCell runat="server"
+BorderColor="Orange"
+BorderWidth="1px"
+/>--%>
+
+<asp:Button runat="server"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+    ForeColor="Black"
+    Height="25px"
+    Width="70px"
+/>
+
+<asp:Label runat="server" SkinID="skiDropDownListLabel"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+    ForeColor="Black"
+/>
+
+<asp:Label runat="server" SkinID="skiHeaderData"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+    ForeColor="Black"
+/>
+
+<asp:Label runat="server" SkinID="skiHeaderTitle"
+    Font-Bold="true"
+    ForeColor="Black"
+    Font-Names="Calibri"
+    Font-Size="15pt"
+/>
+
+<asp:Label runat="server" SkinID="skiFooterLabel"
+    Font-Bold="true"
+    ForeColor="Black"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+/>
+
+<asp:LinkButton runat="server"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+/>
+
+<asp:Menu runat="server"
+    DynamicHoverStyle-BackColor="Gray"
+    DynamicMenuItemStyle-BackColor="DarkRed"
+    DynamicMenuItemStyle-CssClass="MenuCursor"
+    DynamicMenuItemStyle-ForeColor="White"
+    DynamicMenuItemStyle-ItemSpacing="0"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+    Orientation="Vertical"
+    StaticDisplayLevels="2"
+    StaticHoverStyle-BackColor="Gray"
+    StaticMenuItemStyle-BackColor="DarkRed"
+    StaticMenuItemStyle-CssClass="MenuCursor"
+    StaticMenuItemStyle-ForeColor="White"
+    StaticMenuItemStyle-ItemSpacing="0"
+    Width="1000px"
+/>
+
+<asp:RadioButton runat="server"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+/>
+
+<asp:RegularExpressionValidator runat="server"
+    Display="Dynamic"
+    Text=" *"
+    ForeColor="Red"
+/>
+
+<asp:RequiredFieldValidator runat="server"
+    Display="Dynamic"
+    Text=" *"
+    ForeColor="Red"
+/>
+
+<asp:Table runat="server" SkinID="skiFrame"
+    BorderColor="DarkRed"
+    BorderWidth="1px"
+    HorizontalAlign="Left"
+    Width="100%"
+/>
+
+<asp:Table runat="server" SkinID="skiTableReport"
+    BorderStyle="Solid"
+    GridLines="Both"
+/>
+
+<asp:TableCell runat="server" SkinID="skiDataLabel"
+    BackColor="DarkRed"
+    CellPadding="1"
+    Font-Names="Calibri"
+    Font-Size="11pt"
+    ForeColor="White"
+    Height="22px"
+    Width="1%"
+    Wrap="false"
+/>
+
+<asp:ValidationSummary runat="server"
+    DisplayMode="BulletList"
+    HeaderText="CPMS Messages:"
+    ShowMessageBox="true"
+    ShowSummary="false"
+/>
